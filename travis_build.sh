@@ -10,9 +10,9 @@ INSTALL_DIR=$(pwd)/$BUILD_DIR/install
 
 if [[ -z $CONFIG_OPTIONS ]]; then
     CONFIG_OPTIONS="--without-x
-             --without-paranrn
-             --with-nrnpython=$(which python)
-             "
+                    --without-paranrn
+                    --with-nrnpython=$(which python)
+                    "
 fi
 
 CONFIG_OPTIONS+=" --prefix=$INSTALL_DIR"

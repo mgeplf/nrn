@@ -7,6 +7,7 @@ compiler:
 env:
   - CONFIG_OPTIONS="--without-x --without-paranrn --with-nrnpython=$(which python2)"
   - CONFIG_OPTIONS="--without-x --without-paranrn --with-nrnpython=$(which python3)"
+  - CONFIG_OPTIONS="--without-x --without-paranrn --disable-shared linux_nrnmech=no"
 os:
   - linux
 before_install:
